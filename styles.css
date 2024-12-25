@@ -251,5 +251,34 @@
     overflow: hidden;
     border-radius: 10px;
     height: 45%;
+    justify-content: space-evenly;
+    padding: 0 1rem;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.trend {
+    display: flex;
+}
+
+.trend img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.trend-text {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.trend-title {
+    font-size: 0.9rem;
+    color: black;
+}
+
+.trend-description {
+    font-size: 0.85rem;
+    color: rgb(127, 127, 127);
 }
