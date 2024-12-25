@@ -31,6 +31,7 @@
 .nav {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .dashboard {
@@ -56,10 +57,35 @@
     height: 2.2rem;
     border-radius: 20px;
     background-color: rgb(232, 232, 232);
-    margin-right: 8rem;
+    margin-right: 8vw;
 }
 
-.icon {
+.icon-top-nav {
     width: 2rem;
     height: 2rem;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.bottom-nav button {
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(89, 158, 255);
+    color: white;
+}
+
+.bottom-nav img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.bottom-nav-text {
+    margin-right: 22vw;
 }
