@@ -5,18 +5,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Admin Dashboard</title>
         <link rel="stylesheet" href="./styles.css" />
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script>
-            tailwind.config = {
-                theme: {
-                    extend: {
-                        colors: {
-                            clifford: '#da373d',
-                        },
-                    },
-                },
-            };
-        </script>
     </head>
-    <body></body>
+    <body>
+        <div class="main-wrapper">
+            <div class="nav">
+                <div class="top-nav">
+                    <img
+                        class="icon"
+                        src="./assets/images/magnify.png"
+                        alt="Magnifying Glass"
+                    />
+                    <div class="search-bar"></div>
+                    <img
+                        class="icon"
+                        src="./assets/images/bell-ring-outline.png"
+                        alt="Notifications"
+                    />
+                    <img
+                        class="icon"
+                        src="./assets/images/account.png"
+                        alt="Profile Pic"
+                    />
+                    <h4>Evan Ferreira</h4>
+                </div>
+                <div class="bottom-nav"></div>
+            </div>
+            <div class="dashboard"></div>
+            <div class="project"></div>
+        </div>
+    </body>
 </html>
