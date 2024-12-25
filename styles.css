@@ -34,11 +34,6 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-.dashboard {
-    grid-column: 1 / 2;
-    grid-row: 1 / 3;
-}
-
 .projects {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
@@ -88,4 +83,48 @@
 
 .bottom-nav-text {
     margin-right: 22vw;
+}
+
+.dashboard {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    background-color: rgb(89, 158, 255);
+    color: white;
+    font-size: 0.85rem;
+    padding-top: 1rem;
+}
+
+.dashboard div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+
+.dashboard img {
+    width: 1.5rem;
+    height: 1.4rem;
+    background-color: white;
+}
+
+#dashboard-header {
+    font-size: 1.3rem;
+    gap: 1rem;
+    margin-left: -0.75vw;
+    margin-bottom: 2rem;
+}
+
+#dashboard-header img {
+    width: 3rem;
+    height: 3rem;
+}
+
+#communities {
+    margin-bottom: 2rem;
 }
